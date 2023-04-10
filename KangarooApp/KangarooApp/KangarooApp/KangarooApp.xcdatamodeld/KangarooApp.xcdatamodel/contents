@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="18G8022" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Products" representedClassName="Products" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isFeatured" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="isOnSale" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productCategory" optional="YES" attributeType="String"/>
+        <attribute name="productColour" optional="YES" attributeType="String"/>
+        <attribute name="productDesc" optional="YES" attributeType="String"/>
+        <attribute name="productImage" optional="YES" attributeType="String"/>
+        <attribute name="productName" optional="YES" attributeType="String"/>
+        <attribute name="productPrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="productRating" optional="YES" attributeType="Float" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="productSize" optional="YES" attributeType="String"/>
+        <attribute name="salePrice" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="Users" representedClassName="Users" syncable="YES" codeGenerationType="class">
+        <attribute name="address" optional="YES" attributeType="String"/>
+        <attribute name="cartItems" optional="YES" attributeType="Transformable" customClassName="[[Any]]"/>
+        <attribute name="credits" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="emailAddress" optional="YES" attributeType="String"/>
+        <attribute name="firstName" optional="YES" attributeType="String"/>
+        <attribute name="lastName" optional="YES" attributeType="String"/>
+        <attribute name="orderHistory" optional="YES" attributeType="Transformable" customClassName="[[Any]]"/>
+        <attribute name="password" optional="YES" attributeType="String"/>
+        <attribute name="phoneNo" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userDiscounts" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="userImage" optional="YES" attributeType="Binary"/>
+        <attribute name="username" optional="YES" attributeType="String"/>
+        <attribute name="wishlistItems" optional="YES" attributeType="Transformable" customClassName="[Int]"/>
+    </entity>
+    <elements>
+        <element name="Products" positionX="-63" positionY="45" width="128" height="223"/>
+        <element name="Users" positionX="-63" positionY="-18" width="128" height="238"/>
+    </elements>
+</model>
